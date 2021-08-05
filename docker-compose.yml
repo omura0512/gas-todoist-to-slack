@@ -1,0 +1,7 @@
+version: '2'
+services:
+  reflection:
+    build: .
+    tty: true
+    volumes:
+      - ./src/:/root
